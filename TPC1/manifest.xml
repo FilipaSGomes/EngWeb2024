@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC1</title>
+        <date>2024-02-05</date>
+        <author>
+            <id>A96556</id>
+            <name>Filipa Gomes</name>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <name>Engenharia Web</name>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Através de vários ficheiros .xml dados, pretende-se criar uma cadeia de páginas WEB relativo à informação contida.</p>
+        <p>Cada ficheiro .xml contém informação variada sobre a devida rua (nome do ficheiro .xml).</p>
+        <p>Terceiro Parágrafo com <url>link</url><texto>url embotido</texto>.</p>
+    </resumo>
+    <resultados>
+        <resultado> resultado 1 </resultado>
+        <resultado> resultado 2 </resultado>
+    </resultados>
+</doc>
