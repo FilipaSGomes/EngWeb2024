@@ -2,7 +2,7 @@
 
 UC 3º ano de Engenharia Informática na Universidade do Minho
 
-##Aluno
+## Aluno
 
 **Nome:** Filipa de Sousa Gomes
 
@@ -10,4 +10,4 @@ UC 3º ano de Engenharia Informática na Universidade do Minho
 
 **Email:** a96556@alunos.uminho.pt
 
-**Fotografia:** ![Texto Alternativo](myfoto.jpg)
+**Fotografia:** ![Filipa Gomes](https://mayorx.xyz/Media/Filipa_Gomes.png)
