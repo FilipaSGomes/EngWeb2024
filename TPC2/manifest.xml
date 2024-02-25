@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+  <meta>
+    <title>TPC2</title>
+    <date>2024-02-19</date>
+    <author>
+      <id>A96556</id>
+      <name>Filipa Gomes</name>
+    </author>
+    <UC>
+      <sigla>EngWeb2024</sigla>
+      <name>Engenharia Web</name>
+    </UC>
+  </meta>
+  <resumo>
+		<p>Criar uma página inicial para navegar para a listagem de alunos, cursos e instrumentos.</p>
+		<p>Criar uma página com todos os cursos.</p>
+		<p>Criar para cada curso uma página que contenha os detalhes do mesmo.</p>
+		<p>Criar uma página com todos os alunos.</p>
+		<p>Criar para cada alunos uma página que contenha os detalhes do mesmo</p>
+		<p>Criar uma página que contenha todos os instrumentos</p>
+  </resumo>
+  <resultados>
+    <resultado> resultado 1 </resultado>
+    <resultado> resultado 2 </resultado>
+  </resultados>
+</doc>
