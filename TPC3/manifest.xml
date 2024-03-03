@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+  <meta>
+    <title>TPC3</title>
+    <date>2024-03-03</date>
+    <author>
+      <id>A96556</id>
+      <name>Filipa Gomes</name>
+    </author>
+    <UC>
+      <sigla>EngWeb2024</sigla>
+      <name>Engenharia Web</name>
+    </UC>
+  </meta>
+  <resumo>
+		<p>Criar uma página inicial para navegar para a listagem de filmes, atores e géneros.</p>
+		<p>Criar uma página com todos os filmes.</p>
+		<p>Criar para cada filme uma página que contenha os detalhes do mesmo.</p>
+		<p>Criar uma página com todos os atores.</p>
+		<p>Criar para cada ator uma página que contenha os detalhes do mesmo</p>
+		<p>Criar uma página que contenha todos os géneros</p>
+    <p>Criar para cada género uma página que contenha os detalhes do mesmo</p>
+  </resumo>
+  <resultados>
+    <resultado> resultado 1 </resultado>
+    <resultado> resultado 2 </resultado>
+  </resultados>
+</doc>

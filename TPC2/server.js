@@ -5,7 +5,6 @@ var axios = require('axios');
 
 function createCoursePage(id) {
     return new Promise((resolve, reject) => {
-        console.log('ID: ' + id);
         axios.get('http://localhost:3000/cursos/' + id)
              .then(resp => {
 
@@ -48,10 +47,10 @@ function createStudentPage(id) {
 
                 resolve(p);
 
-             }).catch(erro => {
+            }).catch(erro => {
                 console.log('Erro: ' + erro.toString());
                 reject('Erro na obtenção do aluno...');
-                });
+            });
     });
 }
 
@@ -219,7 +218,6 @@ http.createServer(function (req, res) {
     } else if (q.pathname.match(/\/alunos\/[A-Z0-9]+/)) {
         // Página de aluno
         const id = q.pathname.match(/\/alunos\/([A-Za-z0-9]+)/)[1];
-        console.log('ID(alunos): ' + id);
         if (id) {
             createStudentPage(id)
                 .then(p => {
@@ -239,7 +237,6 @@ http.createServer(function (req, res) {
     } else if (q.pathname.match(/\/cursos\/[A-Z0-9]+/)) {
         // Página de Curso
         const id = q.pathname.match(/\/cursos\/([A-Za-z0-9]+)/)[1];
-        console.log('ID(cursos): ' + id + '.');
         if (id) {
             createCoursePage(id)
                 .then(p => {
