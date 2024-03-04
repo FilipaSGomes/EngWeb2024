@@ -3,6 +3,18 @@ var fs = require('fs')
 var url = require('url')
 var axios = require('axios')
 
+function insertSpaces(str) {
+    let result = str.charAt(0); // Começa com o primeiro caractere da string
+    for (let i = 1; i < str.length; i++) {
+        // Se a letra atual for maiúscula e não for a primeira letra
+        if (str[i] === str[i].toUpperCase() && str[i - 1] !== ' ') {
+            result += ' '; // Adiciona um espaço antes da letra maiúscula
+        }
+        result += str[i]; // Adiciona a letra atual à string resultante
+    }
+    return result;
+}
+
 function create_ator_list(){
     return new Promise((resolve, reject) => {
         axios.get('http://localhost:3000/movies')   
@@ -18,7 +30,7 @@ function create_ator_list(){
                 let p = "<link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>"
                 p += "<h1>American Movies</h1><h2>Actor List :</h2><ul>"
                 for (let a of actors) {
-                    p += "<li><a class=w3-text-teal href='/ator/" + a + "'>" + a + "</a></li>"
+                    p += "<li><a class=w3-text-teal href='/ator/" + a.split(' ').join('') + "'>" + a + "</a></li>"
                 }
                 p += '</ul>'
                 p += '<p><a class=w3-text-teal href="/">Back to Menu</a></p>'
@@ -35,10 +47,11 @@ function create_ator(ator_name){
     return new Promise((resolve, reject) => {
         axios.get('http://localhost:3000/movies')
             .then(function (resp) {
+                let a = insertSpaces(ator_name)
                 let p = "<link rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css'>"
-                p += "<h1>American Movies</h1><h2>Actor: " + ator_name + "</h2><ul>"
+                p += "<h1>American Movies</h1><h2>Actor: " + a + "</h2><ul>"
                 for (let m of resp.data) {
-                    if (m.cast.includes(ator_name)) {
+                    if (m.cast.includes(a)) {
                         p += "<li><a class=w3-text-teal href='/filmes/" + m["_id"]["$oid"] + "'>" + m["title"] + "</a></li>"
                     }
                 }
