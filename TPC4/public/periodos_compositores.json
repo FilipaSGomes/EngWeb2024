@@ -1,6 +1,7 @@
 {
     "periodos": [
         {
+            "id": "P1",
             "nome": "Barroco",
             "compositores": [
                 {
@@ -273,6 +274,7 @@
             ]
         },
         {
+            "id": "P2",
             "nome": "Renascimento",
             "compositores": [
                 {

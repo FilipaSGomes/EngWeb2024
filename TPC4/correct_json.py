@@ -43,14 +43,15 @@ def group_composers_by_period(composers):
 def period_name(composers):
     a = group_composers_by_period(composers)
     gs = []
+    id_ = 0
     for i in a:
-        n = i
         b = []
+        id_ += 1
+        n_id_ = "P" + str(id_)
         for c in a[i]:
             b.append(c)
-        gs.append({"nome" : i, "compositores": b})
+        gs.append({"id" : n_id_, "nome" : i, "compositores": b})
     return gs
-        
 
 # Write the output data to the file
 def write_json(composers, directory):
