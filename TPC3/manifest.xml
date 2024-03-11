@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <doc>
   <meta>
-    <title>TPC3</title>
-    <date>2024-03-03</date>
+    <title>TPC34</title>
+    <date>2024-03-11</date>
     <author>
       <id>A96556</id>
       <name>Filipa Gomes</name>
@@ -13,17 +12,39 @@
       <name>Engenharia Web</name>
     </UC>
   </meta>
+  </meta>
   <resumo>
-		<p>Criar uma página inicial para navegar para a listagem de filmes, atores e géneros.</p>
-		<p>Criar uma página com todos os filmes.</p>
-		<p>Criar para cada filme uma página que contenha os detalhes do mesmo.</p>
-		<p>Criar uma página com todos os atores.</p>
-		<p>Criar para cada ator uma página que contenha os detalhes do mesmo</p>
-		<p>Criar uma página que contenha todos os géneros</p>
-    <p>Criar para cada género uma página que contenha os detalhes do mesmo</p>
+    <p>Análise de Dados e Criação de Banco de Dados - Analisar os dados fornecidos sobre filmes e criar um dataset apropriado para ser utilizado com JSON-SERVER.</p>
+    <p>Serviço Web de Consulta - Utilização de CSS e JavaScript para criar uma página web que permita a consulta de filmes, atores e gênero cinematográficos. Desenvolver um serviço web que responda a pedidos HTTP GET nas seguintes rotas: </p>
+    <p>`/filmesd` : Uma listagem de todos os filmes.</p>
+    <p>`/filmes/{id}` : Detalhes sobre um filme específico.</p>
+    <p>`/generosd` : Uma lista com todos os gêneros cinematográficos presentes no dataset.</p>
+    <p>`/generos/{id}` : Detalhes sobre um gênero cinematográfico específico.</p>
+    <p>`/atord` : Uma lista com todos os atores presentes no dataset.</p>
+    <p>`/ator/{id}` : Detalhes sobre um ator específico.</p>
   </resumo>
   <resultados>
-    <resultado> resultado 1 </resultado>
-    <resultado> resultado 2 </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-41-05.png" alt="Inital Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-41-12.png" alt="Movies Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-41-17.png" alt="Movie's (Feeding Sea Lion) Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-41-26.png" alt="Genres Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-41-31.png" alt="Genre's (Short) Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-41-45.png" alt="Actors Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-41-50.png" alt="Actor's (Paul Boyton) Page" />
+    </resultado>
+
   </resultados>
 </doc>

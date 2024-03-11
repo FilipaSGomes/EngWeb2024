@@ -19,7 +19,14 @@
         <p>Terceiro Parágrafo com <url>link</url><texto>url embotido</texto>.</p>
     </resumo>
     <resultados>
-        <resultado> resultado 1 </resultado>
-        <resultado> resultado 2 </resultado>
+        <resultado>
+            <image src="images_xml/Screenshot from 2024-03-11 18-21-40.png" alt="Inital Page" />
+        </resultado>
+        <resultado>
+            <image src="images_xml/Screenshot from 2024-03-11 18-22-16.png" alt="Page: Rua Verde" />
+        </resultado>
+        <resultado>
+            <image src="images_xml/Screenshot from 2024-03-11 18-22-23.png" alt="Page(cont.): Rua Verde" />
+        </resultado>
     </resultados>
 </doc>

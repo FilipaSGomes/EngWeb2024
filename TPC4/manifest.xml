@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+  <meta>
+    <title>TPC34</title>
+    <date>2024-03-11</date>
+    <author>
+      <id>A96556</id>
+      <name>Filipa Gomes</name>
+    </author>
+    <UC>
+      <sigla>EngWeb2024</sigla>
+      <name>Engenharia Web</name>
+    </UC>
+  </meta>
+  <resumo>
+		<p>Criar uma página inicial para navegar para a listagem de filmes, atores e géneros.</p>
+		<p>Criar uma página com todos os filmes.</p>
+		<p>Criar para cada filme uma página que contenha os detalhes do mesmo.</p>
+		<p>Criar uma página com todos os atores.</p>
+		<p>Criar para cada ator uma página que contenha os detalhes do mesmo</p>
+		<p>Criar uma página que contenha todos os géneros</p>
+    <p>Criar para cada género uma página que contenha os detalhes do mesmo</p>
+  
+<p>Criar uma aplicação para a gestão de uma base de dados de compositores musicais:</p>
+  <ul>
+    <li>Montar a API de dados com o json-server a partir do dataset de compositores em anexo;</li>
+    <li>Criar uma aplicação Web com as seguintes caraterísticas:
+      <ul>
+          <li>CRUD sob re compositores;
+          <li>CRUD sobre periodos musicais.
+      </ul>
+    </li>
+    <li>Investigar e inserir pelo menos 5 compositores do período moderno ou serialista.</li>
+  </ul>
+  </resumo>
+  <resultados>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-49-20.png" alt="Initial Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-49-30.png" alt="Composers Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-49-43.png" alt="Composer's (C26) Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-49-58.png" alt="Composer's (C26) Edit Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-50-12.png" alt="Composers Register Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-50-24.png" alt="Periods Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-51-00.png" alt="Period's (P1) Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-50-32.png" alt="Period's (P1) Edit Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-50-43.png" alt="Periods Register Page" />
+    </resultado>
+  </resultados>
+</doc>

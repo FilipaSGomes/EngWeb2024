@@ -22,7 +22,23 @@
 		<p>Criar uma página que contenha todos os instrumentos</p>
   </resumo>
   <resultados>
-    <resultado> resultado 1 </resultado>
-    <resultado> resultado 2 </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-29-43.png" alt="Inital Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-29-49.png" alt="Instruments Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-29-55.png" alt="Courses Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-29-57.png" alt="Course's CB1 Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-30-06.png" alt="Student Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/Screenshot from 2024-03-11 18-30-12.png" alt="Student's A1510 Page" />
+    </resultado>
   </resultados>
 </doc>
