@@ -2,7 +2,7 @@
 
 <doc>
   <meta>
-    <title>TPC34</title>
+    <title>TPC4</title>
     <date>2024-03-11</date>
     <author>
       <id>A96556</id>
@@ -14,25 +14,17 @@
     </UC>
   </meta>
   <resumo>
-		<p>Criar uma página inicial para navegar para a listagem de filmes, atores e géneros.</p>
-		<p>Criar uma página com todos os filmes.</p>
-		<p>Criar para cada filme uma página que contenha os detalhes do mesmo.</p>
-		<p>Criar uma página com todos os atores.</p>
-		<p>Criar para cada ator uma página que contenha os detalhes do mesmo</p>
-		<p>Criar uma página que contenha todos os géneros</p>
-    <p>Criar para cada género uma página que contenha os detalhes do mesmo</p>
-  
-<p>Criar uma aplicação para a gestão de uma base de dados de compositores musicais:</p>
-  <ul>
-    <li>Montar a API de dados com o json-server a partir do dataset de compositores em anexo;</li>
-    <li>Criar uma aplicação Web com as seguintes caraterísticas:
+    <p>Criar uma aplicação para a gestão de uma base de dados de compositores musicais:</p>
       <ul>
-          <li>CRUD sob re compositores;
-          <li>CRUD sobre periodos musicais.
+        <li>Montar a API de dados com o json-server a partir do dataset de compositores em anexo;</li>
+        <li>Criar uma aplicação Web com as seguintes caraterísticas:
+          <ul>
+              <li>CRUD sob re compositores;
+              <li>CRUD sobre periodos musicais.
+          </ul>
+        </li>
+        <li>Investigar e inserir pelo menos 5 compositores do período moderno ou serialista.</li>
       </ul>
-    </li>
-    <li>Investigar e inserir pelo menos 5 compositores do período moderno ou serialista.</li>
-  </ul>
   </resumo>
   <resultados>
     <resultado>
