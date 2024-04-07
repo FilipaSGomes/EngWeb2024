@@ -64,6 +64,7 @@ router.get('/compositores', function(req, res) {
     .then( resposta => {
       var d = new Date().toISOString().substring(0,16)
       p.then(ap => {
+        console.log(resposta.data)
         res.render('listComposers', {lista: resposta.data, data: d, titulo: "Composers List", all_periods: ap});
       }).catch(function(erro){
         console.log('Error obtaining list of periodos...')

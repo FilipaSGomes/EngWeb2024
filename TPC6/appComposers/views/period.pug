@@ -1,0 +1,21 @@
+extends index
+
+block content
+  .w3-card-4
+    header.w3-container.w3-light-blue
+      h1= titulo 
+    .w3-container 
+      table.w3-table-all 
+        p Name : #{period.nome} 
+        p Composers :
+        ul 
+          - period.compositores.forEach(element => {
+            - const key = Object.keys(element)[0];
+            - const value = element[key];
+              li
+                a(href=`/compositores/` + key) #{value}
+          - });
+    footer.w3-container.w3-light-blue 
+      address Gerado por a95458 em #{data}
+      a.w3-button.w3-blue(href="/periodos/edit/" + period.id) Edit
+      a.w3-button.w3-white(href="/") Return

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+  <meta>
+    <title>TPC6</title>
+    <date>2024-04-07</date>
+    <author>
+      <id>A96556</id>
+      <name>Filipa Gomes</name>
+    </author>
+    <UC>
+      <sigla>EngWeb2024</sigla>
+      <name>Engenharia Web</name>
+    </UC>
+  </meta>
+  <resumo>
+    <p>Criar servidor mongoDB, a utilizar com a aplicação criada no TPC5.</p>
+      <ul>
+        <li>Implementar a API REST para a aplicação.</li>
+          <ul>
+            <li> Utilizar o MongoDB para armazenar os dados (mongoose).</li>
+            <li> Dataset a utilizar é o mesmo do TPC5.</li>
+            <li> Criar um servidor Node.js com Express.</li>
+            <li> Receber pedidos HTTP e responde com JSON.</li>
+            <li> Implementar os métodos GET, POST, PUT e DELETE.</li>
+          </ul>
+      </ul>
+  </resumo>
+  <resultados>
+    <resultado>
+      <image src="images_xml/1.png" alt="Initial Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/2.png" alt="Composers Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/4.png" alt="Composer's (C26) Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/5.png" alt="Composer's (C26) Edit Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/3.png" alt="Composers Register Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/6.png" alt="Periods Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/7.png" alt="Period's (P1) Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/8.png" alt="Period's (P1) Edit Page" />
+    </resultado>
+    <resultado>
+      <image src="images_xml/9.png" alt="Periods Register Page" />
+    </resultado>
+  </resultados>
+</doc>

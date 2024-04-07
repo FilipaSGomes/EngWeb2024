@@ -1,0 +1,516 @@
+{
+  "_id": "P1",
+  "nome": "Barroco",
+  "compositores": [
+  {
+    "C26": "Alessandro Marcello"
+  },
+  {
+    "C48": "Alessandro Scarlatti"
+  },
+  {
+    "C76": "Altnickol, Johann Christoph"
+  },
+  {
+    "C204": "Antoine Forqueray"
+  },
+  {
+    "C156": "Antonio Lotti"
+  },
+  {
+    "C50": "Antonio Lucio Vivaldi"
+  },
+  {
+    "C148": "Antonio Soler"
+  },
+  {
+    "C274": "Ariosti, Attilio"
+  },
+  {
+    "C278": "Bach, Johann Sebastian"
+  },
+  {
+    "C238": "Bach, Wilhelm Friedemann"
+  },
+  {
+    "C336": "Balbastre, Claude"
+  },
+  {
+    "C28": "Baldassare Galuppi"
+  },
+  {
+    "C282": "Barbara of Portugal"
+  },
+  {
+    "C334": "Benda, Franz"
+  },
+  {
+    "C322": "Biber, Carl Heinrich"
+  },
+  {
+    "C166": "Bononcini, Giovanni Battista"
+  },
+  {
+    "C326": "Bonporti, Francesco Antonio"
+  },
+  {
+    "C168": "Caldara, Antonio"
+  },
+  {
+    "C94": "Corelli, Arcangelo"
+  },
+  {
+    "C300": "Couperin, Armand-Louis"
+  },
+  {
+    "C106": "David Perez"
+  },
+  {
+    "C54": "Domenico Alberti"
+  },
+  {
+    "C96": "Domenico Scarlatti"
+  },
+  {
+    "C286": "Durante, Francesco"
+  },
+  {
+    "C142": "Emanuele d'Astorga"
+  },
+  {
+    "C188": "Francesco Feo"
+  },
+  {
+    "C288": "Francesco Geminiani"
+  },
+  {
+    "C32": "Francesco Maria Veracini"
+  },
+  {
+    "C170": "Friederike Sophie Wilhelmine"
+  },
+  {
+    "C224": "Fux, Johann Joseph"
+  },
+  {
+    "C254": "Georg Bohm"
+  },
+  {
+    "C160": "Georg Muffat"
+  },
+  {
+    "C56": "Georg Philipp Telemann"
+  },
+  {
+    "C324": "Gibbs, Joseph"
+  },
+  {
+    "C90": "Giovanni Battista Bassani"
+  },
+  {
+    "C34": "Giuseppe Tartini"
+  },
+  {
+    "C146": "Grigny, Nicolas de"
+  },
+  {
+    "C58": "Handel, George Frideric"
+  },
+  {
+    "C132": "Hasse, Johann Adolph"
+  },
+  {
+    "C82": "Haym, Nicola Francesco"
+  },
+  {
+    "C196": "Henri Desmarets"
+  },
+  {
+    "C78": "Jan Dismas Zelenka"
+  },
+  {
+    "C86": "Jean-Joseph Mouret"
+  },
+  {
+    "C330": "Jean-Marie Leclair"
+  },
+  {
+    "C306": "Jeremiah Clarke"
+  },
+  {
+    "C16": "Johann Christoph(er) Pepusch"
+  },
+  {
+    "C212": "Johann David Heinichen"
+  },
+  {
+    "C70": "Johann Ernst Eberlin"
+  },
+  {
+    "C270": "Johann Gottlieb Goldberg"
+  },
+  {
+    "C6": "Johann Joachim Quantz"
+  },
+  {
+    "C110": "Johann Krieger"
+  },
+  {
+    "C178": "Johann Nicolaus Bach"
+  },
+  {
+    "C8": "Johann Pachelbel"
+  },
+  {
+    "C66": "Johann Tobias Krebs"
+  },
+  {
+    "C198": "John Eccles"
+  },
+  {
+    "C214": "Krebs, Johann Ludwig"
+  },
+  {
+    "C312": "Kuhnau, Johann"
+  },
+  {
+    "C294": "Leo, Leonardo"
+  },
+  {
+    "C328": "Louis Marchand"
+  },
+  {
+    "C24": "Louis-Claude Daquin"
+  },
+  {
+    "C134": "Marais, Marin"
+  },
+  {
+    "C118": "Marcello, Benedetto"
+  },
+  {
+    "C290": "Martini, Giovanni Battista"
+  },
+  {
+    "C46": "Mattheson, Johann"
+  },
+  {
+    "C218": "Maurice Greene"
+  },
+  {
+    "C256": "Michel Richard Delalande"
+  },
+  {
+    "C332": "Mondonville, Jean-Joseph"
+  },
+  {
+    "C298": "Neander, Joachim"
+  },
+  {
+    "C40": "Nicola Porpora"
+  },
+  {
+    "C190": "Nicolas Siret"
+  },
+  {
+    "C200": "Nicolaus Bruhns"
+  },
+  {
+    "C98": "Pergolesi, Giovanni Battista"
+  },
+  {
+    "C64": "Purcell, Henry"
+  },
+  {
+    "C14": "Rameau, Jean-Philippe"
+  },
+  {
+    "C232": "Robert de Visee"
+  },
+  {
+    "C276": "Rousseau, Jean-Jacques"
+  },
+  {
+    "C264": "Sammartini, Giovanni Battista"
+  },
+  {
+    "C320": "Sammartini, Giuseppe"
+  },
+  {
+    "C258": "Schenck, Johannes"
+  },
+  {
+    "C42": "Seixas, Carlos"
+  },
+  {
+    "C164": "Steffani, Agostino"
+  },
+  {
+    "C20": "Thomas Arne"
+  },
+  {
+    "C102": "Tomaso Albinoni"
+  },
+  {
+    "C314": "Veracini, Antonio"
+  },
+  {
+    "C216": "Weldon, John"
+  },
+  {
+    "C172": "Wilhelmine of Prussia"
+  },
+  {
+    "C296": "William Boyce"
+  },
+  {
+    "C246": "Zachow, Friedrich Wilhelm"
+  },
+  {
+    "C104": "Zipoli, Domenico"
+  }
+  ]
+}
+{
+  "_id": "P2",
+  "nome": "Renascimento",
+  "compositores": [
+  {
+    "C206": "Alessandro Stradella"
+  },
+  {
+    "C192": "Andrea Falconieri"
+  },
+  {
+    "C242": "Anerio, Felice"
+  },
+  {
+    "C244": "Anerio, Giovanni Francesco"
+  },
+  {
+    "C88": "Antonio Maria Abbatini"
+  },
+  {
+    "C128": "Bach, Johann Christoph"
+  },
+  {
+    "C152": "Bach, Johann Michael"
+  },
+  {
+    "C284": "Bernardo Pasquini"
+  },
+  {
+    "C292": "Biber, Heinrich Ignaz Franz"
+  },
+  {
+    "C318": "Boyvin, Jacques"
+  },
+  {
+    "C202": "Bull, John"
+  },
+  {
+    "C272": "Cabanilles, Juan Bautista"
+  },
+  {
+    "C122": "Carissimi, Giacomo"
+  },
+  {
+    "C138": "Cavalieri, Emilio de'"
+  },
+  {
+    "C120": "Cavalli, Francesco"
+  },
+  {
+    "C116": "Cesti, Antonio"
+  },
+  {
+    "C124": "Cristofaro Caresana"
+  },
+  {
+    "C2": "Dieterich Buxtehude"
+  },
+  {
+    "C268": "Diogo Dias Melgas"
+  },
+  {
+    "C226": "Duarte Lobo"
+  },
+  {
+    "C230": "Duarte Lôbo"
+  },
+  {
+    "C130": "Elisabeth Sophie of Mecklenburg"
+  },
+  {
+    "C174": "Esteban Lopez Morago"
+  },
+  {
+    "C68": "Estevao de Brito"
+  },
+  {
+    "C234": "Ferdinand Iii, Holy Roman Emperor"
+  },
+  {
+    "C302": "Fernandes, Gaspar"
+  },
+  {
+    "C126": "Filipe De Magalhaes"
+  },
+  {
+    "C162": "Frescobaldi, Girolamo"
+  },
+  {
+    "C108": "Froberger, Johann Jakob"
+  },
+  {
+    "C114": "Gibbons, Orlando"
+  },
+  {
+    "C266": "Giovanni Battista Vitali"
+  },
+  {
+    "C4": "Giovanni Gabrieli"
+  },
+  {
+    "C310": "Giovanni Legrenzi"
+  },
+  {
+    "C208": "Giulio Caccini"
+  },
+  {
+    "C60": "Gregor Aichinger"
+  },
+  {
+    "C62": "Gregorio Allegri"
+  },
+  {
+    "C222": "Hans Leo Haßler"
+  },
+  {
+    "C44": "Heinrich Scheidemann"
+  },
+  {
+    "C30": "Jan Pieterszoon Sweelinck"
+  },
+  {
+    "C72": "Johann Hermann Schein"
+  },
+  {
+    "C154": "Johann Schop"
+  },
+  {
+    "C182": "John 04 Of Portugal"
+  },
+  {
+    "C18": "John Blow"
+  },
+  {
+    "C280": "John Dowland"
+  },
+  {
+    "C180": "John IV"
+  },
+  {
+    "C240": "Leopold I"
+  },
+  {
+    "C38": "Louis Couperin"
+  },
+  {
+    "C304": "Luigi de Rossi"
+  },
+  {
+    "C236": "Lully, Jean-Baptiste"
+  },
+  {
+    "C228": "Lôbo, Duarte"
+  },
+  {
+    "C80": "Machado, Manuel"
+  },
+  {
+    "C194": "Madre De Deus, Filpe Da"
+  },
+  {
+    "C308": "Manuel Cardoso"
+  },
+  {
+    "C112": "Manuel Correia"
+  },
+  {
+    "C260": "Manuel Rodriguez Coelho"
+  },
+  {
+    "C10": "Marc-Antoine Charpentier"
+  },
+  {
+    "C144": "Maurice, Landgrave of Hesse-Kassel"
+  },
+  {
+    "C136": "Melchior Schildt"
+  },
+  {
+    "C250": "Michael Praetorius"
+  },
+  {
+    "C184": "Monsieur de Sainte-Colombe"
+  },
+  {
+    "C52": "Monteverdi, Claudio"
+  },
+  {
+    "C150": "Nivers, Guillaume-Gabriel"
+  },
+  {
+    "C100": "Paolo Agostino"
+  },
+  {
+    "C92": "Pedro de Araujo"
+  },
+  {
+    "C12": "Peri, Jacopo"
+  },
+  {
+    "C252": "Peter Philips"
+  },
+  {
+    "C220": "Pierre Beauchamp"
+  },
+  {
+    "C186": "Pietro Della Valle"
+  },
+  {
+    "C210": "Reincken, Johann Adam"
+  },
+  {
+    "C176": "Robert Cambert"
+  },
+  {
+    "C140": "Samuel Scheidt"
+  },
+  {
+    "C248": "Sanz, Gaspar"
+  },
+  {
+    "C84": "Stefano Landi"
+  },
+  {
+    "C158": "Strozzi, Barbara"
+  },
+  {
+    "C22": "Thomas Campion"
+  },
+  {
+    "C262": "Thomas Weelkes"
+  },
+  {
+    "C36": "Titelouze, Jean"
+  },
+  {
+    "C316": "Viadana, Lodovico Grossi da"
+  },
+  {
+    "C74": "Wilbye, John"
+  }
+  ]
+}
