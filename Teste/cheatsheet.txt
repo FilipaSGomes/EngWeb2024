@@ -1,0 +1,21 @@
+## Setup Mongo DataBase
+
+docker compose up -d
+
+docker cp ../diretoriaDoJson mongo:/tmp
+
+docker exec -it mongo bash
+
+mongoimport -d nomeBaseDeDados -c nomeColecao /tmps/ficheiroJson --jsonArray
+
+
+## Compress project into Docker
+
+
+
+## API é o TPC6 com MongoDB
+
+## Frontend é o TPC5 com PUG
+
+
+
